@@ -46,7 +46,7 @@ int main () {
         cfp = fopen("cipher.txt","w");
         dfp = fopen("plain.txt","w");
 	if (fp == NULL) {
-             printf("I couldn't open results.dat for writing.\n");
+             printf("I couldn't open input file.\n");
              return 0;
         }else{
 	      printf("Enter Key: ");
